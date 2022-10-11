@@ -27,3 +27,7 @@ Route::get('/profil-yasda', function () {
         'about' => 'Yayasan Darul Hufadz adalah sebuah yayasan pendidikan berbasis islam yang berletak di Kp. Bojong RT 03 RW 15, Ds. Cipacing, Kec. Jatinangor, Kab. Sumedang 45363. Yayasan Darul Hufadz didirikan pada tahun'
     ]);
 });
+
+Route::get('/login', function () {
+    return view('pages.login', ['title' => 'Login']);
+});

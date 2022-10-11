@@ -9,26 +9,26 @@
     <meta name="keywords" content="" />
     <meta content="Pichforest" name="author" />
 
-    <link rel="shortcut icon" href="dist/images/faviconnew.ico">
+    <link rel="shortcut icon" href="assets/images/faviconnew.ico">
 
     <!-- Bootstrap css -->
-    <link rel="stylesheet" href="dist/css/bootstrap.min.css" type="text/css" id="bootstrap-style" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" id="bootstrap-style" />
 
     <!-- Material Icon Css -->
-    <link rel="stylesheet" href="dist/css/materialdesignicons.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/materialdesignicons.min.css" type="text/css" />
 
     <!-- Unicon Css -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
 
     <!-- Swiper Css -->
-    <link rel="stylesheet" href="dist/css/tiny-slider.css" type="text/css" />
-    <link rel="stylesheet" href="dist/css/swiper.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/swiper.min.css" type="text/css" />
 
     <!-- Custom Css -->
-    <link rel="stylesheet" href="dist/css/style.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.min.css" type="text/css" />
 
     <!-- colors -->
-    <link href="dist/css/colors/default.css" rel="stylesheet" type="text/css" id="color-opt" />
+    <link href="assets/css/colors/default.css" rel="stylesheet" type="text/css" id="color-opt" />
 
 </head>
 
@@ -46,8 +46,8 @@
 
             <!-- LOGO -->
             <a class="navbar-brand logo text-uppercase" href="/">
-                <img src="dist/images/logo-light.png" class="logo-light" alt="" height="50">
-                <img src="dist/images/logo-dark.png" class="logo-dark" alt="" height="50">
+                <img src="assets/images/logo-light.png" class="logo-light" alt="" height="50">
+                <img src="assets/images/logo-dark.png" class="logo-dark" alt="" height="50">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -80,7 +80,7 @@
                     </li>
                 </ul>
                 <div class="ms-auto">
-                    <a href="#tingkat" class="btn bg-gradiant">Login</a>
+                    <a href="login" class="btn bg-gradiant">Login</a>
                 </div>
             </div>
         </div>
@@ -96,7 +96,7 @@
             <!-- start row -->
             <div class="row align-items-center text-center">
                 <div class="col-lg-12">
-                    <img src="dist/images/yasda.png" alt="" class="img-fluid mb-4 smallphone-image" style="height: 100px">
+                    <img src="assets/images/yasda.png" alt="" class="img-fluid mb-4 smallphone-image" style="height: 100px">
                     <h1 class="display-6 fw-bold">Selamat Datang di Website</h1>
                     <h1 class="display-6 fw-bold">Yayasan Darul Hufadz Jatinangor.</h1>
                 </div>
@@ -112,7 +112,7 @@
 
 
     <!-- service section -->
-    {{-- <section class="section service bg-light" id="service">
+    <!-- <section class="section service bg-light" id="service">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -132,7 +132,7 @@
                 <div class="col-lg-4">
                     <div class="service-box text-center">
                         <div class="service-icon p-4"
-                            style="background-image: url(./dist/images/service/bomb.png); background-repeat: no-repeat; background-position: center;">
+                            style="background-image: url(./assets/images/service/bomb.png); background-repeat: no-repeat; background-position: center;">
                             <i class="mdi mdi-security text-gradiant f-30"></i>
                         </div>
 
@@ -149,7 +149,7 @@
                 <div class="col-lg-4 pt-4 pt-lg-0">
                     <div class="service-box text-center shadow">
                         <div class="service-icon p-4"
-                            style="background-image: url(./dist/images/service/bomb.png); background-repeat: no-repeat; background-position: center;">
+                            style="background-image: url(./assets/images/service/bomb.png); background-repeat: no-repeat; background-position: center;">
                             <i class="mdi mdi-lightbulb-on text-gradiant f-30"></i>
                         </div>
 
@@ -166,7 +166,7 @@
                 <div class="col-lg-4 pt-4 pt-lg-0">
                     <div class="service-box text-center">
                         <div class="service-icon p-4"
-                            style="background-image: url(./dist/images/service/bomb.png); background-repeat: no-repeat; background-position: center;">
+                            style="background-image: url(./assets/images/service/bomb.png); background-repeat: no-repeat; background-position: center;">
                             <i class="mdi mdi-google-nearby text-gradiant f-30"></i>
                         </div>
 
@@ -181,7 +181,7 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section> -->
     <!-- end service section -->
 
     <!-- Profil section -->
@@ -191,14 +191,15 @@
             <!-- start row -->
             <div class="row align-items-center">
                 <div class="col-lg-4">
-                    <img src="dist/images/logo-yasda.png" alt="" class="img-fluid">
+                    <img src="assets/images/logo-yasda.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-8">
-                    {{-- <img src="dist/images/baby-phone.png" alt="" class="img-fluid mb-4 smallphone-image"> --}}
+                    {{-- <img src="assets/images/baby-phone.png" alt="" class="img-fluid mb-4 smallphone-image"> --}}
                     <h1 class="display-6 fw-bold">Yayasan Darul Hufadz Jatinangor.</h1>
                     <p class="mt-4 text-muted" style="text-align: justify">
                         Yayasan Darul Hufadz adalah sebuah yayasan pendidikan berbasis islam yang berletak di Kp. Bokong RT 03 RW 15, Ds. Cipacing, Kec. Jatinangor, Kab. Sumedang 45363.
                     </p>
+                    <a href="profil-yasda" class="btn bg-gradiant mt-4">Baca Selengkapnya</a>
                 </div>
             </div>
             <!-- end row -->
@@ -209,8 +210,7 @@
 
 
     <!-- start features -->
-    {{-- <div class="section features" id="features">
-        <!-- start container -->
+    <!-- <div class="section features" id="features">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -276,7 +276,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
-                                    <img src="dist/images/features/phone.png" alt="" class="img-fluid">
+                                    <img src="assets/images/features/phone.png" alt="" class="img-fluid">
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="features-item">
@@ -316,7 +316,7 @@
 
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
-                                    <img src="dist/images/features/phone2.png" alt="" class="img-fluid">
+                                    <img src="assets/images/features/phone2.png" alt="" class="img-fluid">
                                 </div>
 
                                 <div class="col-lg-6">
@@ -388,8 +388,7 @@
                 </div>
             </div>
         </div>
-        <!-- end container -->
-    </div> --}}
+    </div> -->
     <!-- end features -->
 
     <!-- Tingkat section -->
@@ -435,7 +434,7 @@
                             aria-labelledby="pills-maspdh-tab">
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
-                                    <img src="dist/images/features/phone2.png" alt="" class="img-fluid">
+                                    <img src="assets/images/features/phone2.png" alt="" class="img-fluid">
                                 </div>
 
                                 <div class="col-lg-6">
@@ -498,6 +497,9 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="col-lg-12">                                            
+                                            <a href="profil-ma" class="btn bg-gradiant mt-4">Baca Selengkapnya</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -507,7 +509,7 @@
 
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
-                                    <img src="dist/images/features/phone2.png" alt="" class="img-fluid">
+                                    <img src="assets/images/features/phone2.png" alt="" class="img-fluid">
                                 </div>
 
                                 <div class="col-lg-6">
@@ -570,6 +572,9 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="col-lg-12">                                            
+                                            <a href="profil-mts" class="btn bg-gradiant mt-4">Baca Selengkapnya</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -579,7 +584,7 @@
 
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
-                                    <img src="dist/images/features/phone2.png" alt="" class="img-fluid">
+                                    <img src="assets/images/features/phone2.png" alt="" class="img-fluid">
                                 </div>
 
                                 <div class="col-lg-6">
@@ -642,6 +647,9 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="col-lg-12">                                            
+                                            <a href="profil-mi" class="btn bg-gradiant mt-4">Baca Selengkapnya</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -651,7 +659,7 @@
 
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
-                                    <img src="dist/images/features/phone2.png" alt="" class="img-fluid">
+                                    <img src="assets/images/features/phone2.png" alt="" class="img-fluid">
                                 </div>
 
                                 <div class="col-lg-6">
@@ -714,6 +722,9 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="col-lg-12">                                            
+                                            <a href="profil-ponpes" class="btn bg-gradiant mt-4">Baca Selengkapnya</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -730,8 +741,7 @@
 
 
     <!-- start testimonial -->
-    {{-- <section class="section bg-light testimonial" id="testimonial">
-        <!-- start container -->
+    <!-- <section class="section bg-light testimonial" id="testimonial">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-4">
@@ -754,14 +764,14 @@
                             <div class="testi-box position-relative overflow-hidden">
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
-                                        <img src="dist/images/testi/img-1.png" alt="" class="img-fluid">
+                                        <img src="assets/images/testi/img-1.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-7">
                                         <div class="p-4">
                                             <div class="d-flex align-items-center">
                                                 <div class="flex-shrink-0">
                                                     <div class="avatar">
-                                                        <img src="dist/images/user/img-1.jpg" alt=""
+                                                        <img src="assets/images/user/img-1.jpg" alt=""
                                                             class="img-fluid rounded-circle">
                                                     </div>
                                                 </div>
@@ -789,18 +799,17 @@
                                     </div>
                                 </div>
                                 <div class="back-image position-absolute end-0 bottom-0">
-                                    <img src="dist/images/testi/rating-image.png" alt="" class="img-fluid">
+                                    <img src="assets/images/testi/rating-image.png" alt="" class="img-fluid">
                                 </div>
 
                             </div>
                         </div>
-                        <!-- slider item -->
 
                         <div class="item">
                             <div class="testi-box position-relative overflow-hidden">
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
-                                        <img src="dist/images/testi/img-2.png" alt="" class="img-fluid">
+                                        <img src="assets/images/testi/img-2.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-7">
                                         <div class="p-4">
@@ -835,18 +844,16 @@
                                     </div>
                                 </div>
                                 <div class="back-image position-absolute end-0 bottom-0">
-                                    <img src="dist/images/testi/rating-image.png" alt="" class="img-fluid">
+                                    <img src="assets/images/testi/rating-image.png" alt="" class="img-fluid">
                                 </div>
 
                             </div>
                         </div>
-
-                        <!-- slider item -->
                         <div class="item ">
                             <div class="testi-box position-relative overflow-hidden">
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
-                                        <img src="dist/images/testi/img-3.png" alt="" class="img-fluid">
+                                        <img src="assets/images/testi/img-3.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-7">
                                         <div class="p-4">
@@ -881,18 +888,16 @@
                                     </div>
                                 </div>
                                 <div class="back-image position-absolute end-0 bottom-0">
-                                    <img src="dist/images/testi/rating-image.png" alt="" class="img-fluid">
+                                    <img src="assets/images/testi/rating-image.png" alt="" class="img-fluid">
                                 </div>
 
                             </div>
                         </div>
-
-                        <!-- slider item -->
                         <div class="item ">
                             <div class="testi-box position-relative overflow-hidden">
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
-                                        <img src="dist/images/testi/img-4.png" alt="" class="img-fluid">
+                                        <img src="assets/images/testi/img-4.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-7">
                                         <div class="p-4">
@@ -927,22 +932,20 @@
                                     </div>
                                 </div>
                                 <div class="back-image position-absolute end-0 bottom-0">
-                                    <img src="dist/images/testi/rating-image.png" alt="" class="img-fluid">
+                                    <img src="assets/images/testi/rating-image.png" alt="" class="img-fluid">
                                 </div>
 
                             </div>
                         </div>
-                        <!-- slider item -->
                     </div>
                 </div>
             </div>
         </div>
-        <!-- end container -->
-    </section> --}}
+    </section> -->
     <!-- end testimonial -->
 
     <!-- pricing section -->
-    {{-- <section class="section pricing" id="pricing">
+    <!-- <section class="section pricing" id="pricing">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -1091,7 +1094,7 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section> -->
     <!-- end pricing -->
 
     <!-- Informasi section -->
@@ -1116,14 +1119,14 @@
                             <div class="testi-box position-relative overflow-hidden">
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
-                                        <img src="dist/images/testi/img-1.png" alt="" class="img-fluid">
+                                        <img src="assets/images/testi/img-1.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-7">
                                         <div class="p-4">
                                             <div class="d-flex align-items-center">
                                                 <div class="flex-shrink-0">
                                                     <div class="avatar">
-                                                        <img src="dist/images/user/img-1.jpg" alt=""
+                                                        <img src="assets/images/user/img-1.jpg" alt=""
                                                             class="img-fluid rounded-circle">
                                                     </div>
                                                 </div>
@@ -1151,7 +1154,7 @@
                                     </div>
                                 </div>
                                 {{-- <div class="back-image position-absolute end-0 bottom-0">
-                                    <img src="dist/images/testi/rating-image.png" alt="" class="img-fluid">
+                                    <img src="assets/images/testi/rating-image.png" alt="" class="img-fluid">
                                 </div> --}}
                             </div>
                         </div>
@@ -1161,7 +1164,7 @@
                             <div class="testi-box position-relative overflow-hidden">
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
-                                        <img src="dist/images/testi/img-2.png" alt="" class="img-fluid">
+                                        <img src="assets/images/testi/img-2.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-7">
                                         <div class="p-4">
@@ -1196,7 +1199,7 @@
                                     </div>
                                 </div>
                                 {{-- <div class="back-image position-absolute end-0 bottom-0">
-                                    <img src="dist/images/testi/rating-image.png" alt="" class="img-fluid">
+                                    <img src="assets/images/testi/rating-image.png" alt="" class="img-fluid">
                                 </div> --}}
 
                             </div>
@@ -1370,8 +1373,7 @@
 
 
     <!-- slider section -->
-    {{-- <section class="section app-slider bg-light" id="app">
-        <!-- start container -->
+    <!-- <section class="section app-slider bg-light" id="app">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -1388,38 +1390,36 @@
                 <div class="col-lg-12">
                     <div class="swiper-container">
                         <div class="fream-phone ">
-                            <img src="dist/images/testi/phone-fream.png" alt="" class="img-fluid">
+                            <img src="assets/images/testi/phone-fream.png" alt="" class="img-fluid">
                         </div>
 
                         <div class="swiper-wrapper">
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-1.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-1.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-2.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-2.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-3.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-3.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-4.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-4.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-5.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-5.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-6.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-6.png" alt="" class="img-fluid">
                             </div>
                         </div>
 
-                        <!-- navigation buttons -->
                         <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </div>
-            <!-- end container -->
         </div>
-    </section> --}}
+    </section> -->
     <!-- end section -->
 
 
@@ -1441,27 +1441,27 @@
                 <div class="col-lg-12">
                     <div class="swiper-container">
                         <div class="fream-phone ">
-                            <img src="dist/images/testi/phone-fream.png" alt="" class="img-fluid">
+                            <img src="assets/images/testi/phone-fream.png" alt="" class="img-fluid">
                         </div>
 
                         <div class="swiper-wrapper">
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-1.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-1.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-2.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-2.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-3.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-3.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-4.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-4.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-5.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-5.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-6.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-6.png" alt="" class="img-fluid">
                             </div>
                         </div>
 
@@ -1478,8 +1478,7 @@
 
 
     <!-- team section -->
-    {{-- <section class="section team" id="team">
-        <!-- start container -->
+    <!-- <section class="section team" id="team">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -1498,7 +1497,7 @@
                         <div class="row justify-content-end">
                             <div class="col-lg-9 col-10">
                                 <div class="team-image">
-                                    <img src="dist/images/team/img1.png" alt="" class="img-fluid">
+                                    <img src="assets/images/team/img1.png" alt="" class="img-fluid">
                                 </div>
                                 <div class="team-icon ">
                                     <div class="d-flex mt-2">
@@ -1529,7 +1528,7 @@
                         <div class="row justify-content-end">
                             <div class="col-lg-9 col-10">
                                 <div class="team-image text-end">
-                                    <img src="dist/images/team/img4.png" alt="" class="img-fluid">
+                                    <img src="assets/images/team/img4.png" alt="" class="img-fluid">
                                 </div>
                                 <div class="team-icon">
                                     <div class="d-flex mt-2">
@@ -1560,7 +1559,7 @@
                         <div class="row justify-content-end">
                             <div class="col-lg-9 col-10">
                                 <div class="team-image text-end">
-                                    <img src="dist/images/team/img3.png" alt="" class="img-fluid">
+                                    <img src="assets/images/team/img3.png" alt="" class="img-fluid">
                                 </div>
                                 <div class="team-icon">
                                     <div class="d-flex mt-2">
@@ -1591,7 +1590,7 @@
                         <div class="row justify-content-end">
                             <div class="col-lg-9 col-10">
                                 <div class="team-image text-end">
-                                    <img src="dist/images/team/img2.png" alt="" class="img-fluid">
+                                    <img src="assets/images/team/img2.png" alt="" class="img-fluid">
                                 </div>
                                 <div class="team-icon">
                                     <div class="d-flex mt-2">
@@ -1619,8 +1618,7 @@
 
             </div>
         </div>
-        <!-- end container -->
-    </section> --}}
+    </section> -->
     <!-- end section -->
 
 
@@ -1635,21 +1633,21 @@
                     <div class="py-5">
                         <h1 class="display-4 text-white">Build Your ideal workspace today.</h1>
                         <p class="text-white-50 mt-3 f-18">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Iure distinctio vero facilis numquam sapiente! Eaque inventore eveniet repellendus quod
+                            Iure assetsinctio vero facilis numquam sapiente! Eaque inventore eveniet repellendus quod
                             maiores nulla.</p>
                         <div class="d-flex mt-4 ">
                             <div class="app-store">
-                                <a href=""><img src="dist/images/img-appstore.png" alt="" class="img-fluid"></a>
+                                <a href=""><img src="assets/images/img-appstore.png" alt="" class="img-fluid"></a>
                             </div>
                             <div class="googleplay">
-                                <a href=""><img src="dist/images/img-googleplay.png " alt="" class="img-fluid ms-3"></a>
+                                <a href=""><img src="assets/images/img-googleplay.png " alt="" class="img-fluid ms-3"></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="cta-phone-image">
-                        <img src="dist/images/cta-bg.png" alt="" class=" img-fluid">
+                        <img src="assets/images/cta-bg.png" alt="" class=" img-fluid">
                     </div>
                 </div>
             </div>
@@ -1920,7 +1918,7 @@
             <div class="row ">
                 <div class="col-lg-2">
                     <a class="navbar-brand logo text-uppercase" href="/">
-                        <img src="dist/images/logo-footer.png" class="logo-light" alt="" height="40">
+                        <img src="assets/images/logo-footer.png" class="logo-light" alt="" height="40">
                         <!-- <img src="images/logo-dark.png" class="logo-dark" alt="" height="28"> -->
                     </a>
                     <p class="text-white-50 mt-2 mb-0"><small>Jl. Raya Cipacing No.20, Kp.Bojong, Ds.Cipacing, Kec. Jatinangor, Kabupaten Sumedang, Jawa Barat 45363</small></p>
@@ -2043,7 +2041,7 @@
 
 
     <!-- Style switcher -->
-    {{-- <div class="style-switcher" id="style-switcher" onclick="toggleSwitcher()" style="left: -189px;">
+    <!-- <div class="style-switcher" id="style-switcher" onclick="toggleSwitcher()" style="left: -189px;">
         <div>
             <h6>Select your color</h6>
             <ul class="pattern list-unstyled mb-0">
@@ -2062,25 +2060,25 @@
             <a href="javascript: void(0);" class="settings rounded-end"><i class="uil uil-setting text-white"
                     style="display: inline; line-height: 46px;"></i></a>
         </div>
-    </div> --}}
+    </div> -->
     <!-- end switcher-->
 
 
 
     <!--Bootstrap Js-->
-    <script src="dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 
     <!-- Slider Js -->
-    <script src="dist/js/tiny-slider.js"></script>
-    <script src="dist/js/swiper.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
 
-    {{-- <script src="dist/js/smooth-scroll.polyfills.min.js"></script> --}}
+    <!-- <script src="assets/js/smooth-scroll.polyfills.min.js"></script> -->
 
     <!-- counter -->
-    <script src="dist/js/counter.init.js"></script>
+    <script src="assets/js/counter.init.js"></script>
 
     <!-- App Js -->
-    <script src="dist/js/app.js"></script>
+    <script src="assets/js/app.js"></script>
 
     <script>
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))

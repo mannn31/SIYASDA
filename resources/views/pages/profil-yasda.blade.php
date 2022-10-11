@@ -22,7 +22,7 @@
                 <div class="col-lg-2">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                          <li class="breadcrumb-item"><a href="/" class="text-light"><i class="mdi mdi-home"></i></a></li>
+                          <li class="breadcrumb-item"><a href="/" class="text-light"><i class="mdi mdi-home"></i> Beranda</a></li>
                           <li class="breadcrumb-item active text-light" aria-current="page">{{ $title }}</li>
                         </ol>
                     </nav>
@@ -42,10 +42,10 @@
             <!-- start row -->
             <div class="row align-items-center">
                 <div class="col-lg-5">
-                    <img src="dist/images/logo-yasda.png" alt="" class="img-fluid">
+                    <img src="assets/images/logo-yasda.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-7">
-                    {{-- <img src="dist/images/baby-phone.png" alt="" class="img-fluid mb-4 smallphone-image"> --}}
+                    {{-- <img src="assets/images/baby-phone.png" alt="" class="img-fluid mb-4 smallphone-image"> --}}
                     <h1 class="display-6 fw-bold">Yayasan Darul Hufadz Jatinangor.</h1>
                     <p class="mt-4 text-muted" style="text-align: justify">
                         {{ $about }}
@@ -127,7 +127,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
-                                    <img src="dist/images/features/phone.png" alt="" class="img-fluid">
+                                    <img src="assets/images/features/phone.png" alt="" class="img-fluid">
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="features-item">
@@ -167,7 +167,7 @@
 
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
-                                    <img src="dist/images/features/phone2.png" alt="" class="img-fluid">
+                                    <img src="assets/images/features/phone2.png" alt="" class="img-fluid">
                                 </div>
 
                                 <div class="col-lg-6">
@@ -286,7 +286,7 @@
                             aria-labelledby="pills-maspdh-tab">
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
-                                    <img src="dist/images/features/phone2.png" alt="" class="img-fluid">
+                                    <img src="assets/images/features/phone2.png" alt="" class="img-fluid">
                                 </div>
 
                                 <div class="col-lg-6">
@@ -358,7 +358,7 @@
 
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
-                                    <img src="dist/images/features/phone2.png" alt="" class="img-fluid">
+                                    <img src="assets/images/features/phone2.png" alt="" class="img-fluid">
                                 </div>
 
                                 <div class="col-lg-6">
@@ -430,7 +430,7 @@
 
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
-                                    <img src="dist/images/features/phone2.png" alt="" class="img-fluid">
+                                    <img src="assets/images/features/phone2.png" alt="" class="img-fluid">
                                 </div>
 
                                 <div class="col-lg-6">
@@ -502,7 +502,7 @@
 
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
-                                    <img src="dist/images/features/phone2.png" alt="" class="img-fluid">
+                                    <img src="assets/images/features/phone2.png" alt="" class="img-fluid">
                                 </div>
 
                                 <div class="col-lg-6">
@@ -605,14 +605,14 @@
                             <div class="testi-box position-relative overflow-hidden">
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
-                                        <img src="dist/images/testi/img-1.png" alt="" class="img-fluid">
+                                        <img src="assets/images/testi/img-1.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-7">
                                         <div class="p-4">
                                             <div class="d-flex align-items-center">
                                                 <div class="flex-shrink-0">
                                                     <div class="avatar">
-                                                        <img src="dist/images/user/img-1.jpg" alt=""
+                                                        <img src="assets/images/user/img-1.jpg" alt=""
                                                             class="img-fluid rounded-circle">
                                                     </div>
                                                 </div>
@@ -640,7 +640,7 @@
                                     </div>
                                 </div>
                                 <div class="back-image position-absolute end-0 bottom-0">
-                                    <img src="dist/images/testi/rating-image.png" alt="" class="img-fluid">
+                                    <img src="assets/images/testi/rating-image.png" alt="" class="img-fluid">
                                 </div>
 
                             </div>
@@ -651,7 +651,7 @@
                             <div class="testi-box position-relative overflow-hidden">
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
-                                        <img src="dist/images/testi/img-2.png" alt="" class="img-fluid">
+                                        <img src="assets/images/testi/img-2.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-7">
                                         <div class="p-4">
@@ -686,7 +686,7 @@
                                     </div>
                                 </div>
                                 <div class="back-image position-absolute end-0 bottom-0">
-                                    <img src="dist/images/testi/rating-image.png" alt="" class="img-fluid">
+                                    <img src="assets/images/testi/rating-image.png" alt="" class="img-fluid">
                                 </div>
 
                             </div>
@@ -697,7 +697,7 @@
                             <div class="testi-box position-relative overflow-hidden">
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
-                                        <img src="dist/images/testi/img-3.png" alt="" class="img-fluid">
+                                        <img src="assets/images/testi/img-3.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-7">
                                         <div class="p-4">
@@ -732,7 +732,7 @@
                                     </div>
                                 </div>
                                 <div class="back-image position-absolute end-0 bottom-0">
-                                    <img src="dist/images/testi/rating-image.png" alt="" class="img-fluid">
+                                    <img src="assets/images/testi/rating-image.png" alt="" class="img-fluid">
                                 </div>
 
                             </div>
@@ -743,7 +743,7 @@
                             <div class="testi-box position-relative overflow-hidden">
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
-                                        <img src="dist/images/testi/img-4.png" alt="" class="img-fluid">
+                                        <img src="assets/images/testi/img-4.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-7">
                                         <div class="p-4">
@@ -778,7 +778,7 @@
                                     </div>
                                 </div>
                                 <div class="back-image position-absolute end-0 bottom-0">
-                                    <img src="dist/images/testi/rating-image.png" alt="" class="img-fluid">
+                                    <img src="assets/images/testi/rating-image.png" alt="" class="img-fluid">
                                 </div>
 
                             </div>
@@ -967,14 +967,14 @@
                             <div class="testi-box position-relative overflow-hidden">
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
-                                        <img src="dist/images/testi/img-1.png" alt="" class="img-fluid">
+                                        <img src="assets/images/testi/img-1.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-7">
                                         <div class="p-4">
                                             <div class="d-flex align-items-center">
                                                 <div class="flex-shrink-0">
                                                     <div class="avatar">
-                                                        <img src="dist/images/user/img-1.jpg" alt=""
+                                                        <img src="assets/images/user/img-1.jpg" alt=""
                                                             class="img-fluid rounded-circle">
                                                     </div>
                                                 </div>
@@ -1002,7 +1002,7 @@
                                     </div>
                                 </div>
                                 {{-- <div class="back-image position-absolute end-0 bottom-0">
-                                    <img src="dist/images/testi/rating-image.png" alt="" class="img-fluid">
+                                    <img src="assets/images/testi/rating-image.png" alt="" class="img-fluid">
                                 </div> --}}
                             </div>
                         </div>
@@ -1012,7 +1012,7 @@
                             <div class="testi-box position-relative overflow-hidden">
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
-                                        <img src="dist/images/testi/img-2.png" alt="" class="img-fluid">
+                                        <img src="assets/images/testi/img-2.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-7">
                                         <div class="p-4">
@@ -1047,7 +1047,7 @@
                                     </div>
                                 </div>
                                 {{-- <div class="back-image position-absolute end-0 bottom-0">
-                                    <img src="dist/images/testi/rating-image.png" alt="" class="img-fluid">
+                                    <img src="assets/images/testi/rating-image.png" alt="" class="img-fluid">
                                 </div> --}}
 
                             </div>
@@ -1239,27 +1239,27 @@
                 <div class="col-lg-12">
                     <div class="swiper-container">
                         <div class="fream-phone ">
-                            <img src="dist/images/testi/phone-fream.png" alt="" class="img-fluid">
+                            <img src="assets/images/testi/phone-fream.png" alt="" class="img-fluid">
                         </div>
 
                         <div class="swiper-wrapper">
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-1.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-1.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-2.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-2.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-3.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-3.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-4.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-4.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-5.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-5.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-6.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-6.png" alt="" class="img-fluid">
                             </div>
                         </div>
 
@@ -1292,27 +1292,27 @@
                 <div class="col-lg-12">
                     <div class="swiper-container">
                         <div class="fream-phone ">
-                            <img src="dist/images/testi/phone-fream.png" alt="" class="img-fluid">
+                            <img src="assets/images/testi/phone-fream.png" alt="" class="img-fluid">
                         </div>
 
                         <div class="swiper-wrapper">
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-1.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-1.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-2.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-2.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-3.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-3.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-4.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-4.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-5.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-5.png" alt="" class="img-fluid">
                             </div>
                             <div class="swiper-slide border-radius">
-                                <img src="dist/images/testi/ss/s-6.png" alt="" class="img-fluid">
+                                <img src="assets/images/testi/ss/s-6.png" alt="" class="img-fluid">
                             </div>
                         </div>
 
@@ -1349,7 +1349,7 @@
                         <div class="row justify-content-end">
                             <div class="col-lg-9 col-10">
                                 <div class="team-image">
-                                    <img src="dist/images/team/img1.png" alt="" class="img-fluid">
+                                    <img src="assets/images/team/img1.png" alt="" class="img-fluid">
                                 </div>
                                 <div class="team-icon ">
                                     <div class="d-flex mt-2">
@@ -1380,7 +1380,7 @@
                         <div class="row justify-content-end">
                             <div class="col-lg-9 col-10">
                                 <div class="team-image text-end">
-                                    <img src="dist/images/team/img4.png" alt="" class="img-fluid">
+                                    <img src="assets/images/team/img4.png" alt="" class="img-fluid">
                                 </div>
                                 <div class="team-icon">
                                     <div class="d-flex mt-2">
@@ -1411,7 +1411,7 @@
                         <div class="row justify-content-end">
                             <div class="col-lg-9 col-10">
                                 <div class="team-image text-end">
-                                    <img src="dist/images/team/img3.png" alt="" class="img-fluid">
+                                    <img src="assets/images/team/img3.png" alt="" class="img-fluid">
                                 </div>
                                 <div class="team-icon">
                                     <div class="d-flex mt-2">
@@ -1442,7 +1442,7 @@
                         <div class="row justify-content-end">
                             <div class="col-lg-9 col-10">
                                 <div class="team-image text-end">
-                                    <img src="dist/images/team/img2.png" alt="" class="img-fluid">
+                                    <img src="assets/images/team/img2.png" alt="" class="img-fluid">
                                 </div>
                                 <div class="team-icon">
                                     <div class="d-flex mt-2">
@@ -1486,21 +1486,21 @@
                     <div class="py-5">
                         <h1 class="display-4 text-white">Build Your ideal workspace today.</h1>
                         <p class="text-white-50 mt-3 f-18">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Iure distinctio vero facilis numquam sapiente! Eaque inventore eveniet repellendus quod
+                            Iure assetsinctio vero facilis numquam sapiente! Eaque inventore eveniet repellendus quod
                             maiores nulla.</p>
                         <div class="d-flex mt-4 ">
                             <div class="app-store">
-                                <a href=""><img src="dist/images/img-appstore.png" alt="" class="img-fluid"></a>
+                                <a href=""><img src="assets/images/img-appstore.png" alt="" class="img-fluid"></a>
                             </div>
                             <div class="googleplay">
-                                <a href=""><img src="dist/images/img-googleplay.png " alt="" class="img-fluid ms-3"></a>
+                                <a href=""><img src="assets/images/img-googleplay.png " alt="" class="img-fluid ms-3"></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="cta-phone-image">
-                        <img src="dist/images/cta-bg.png" alt="" class=" img-fluid">
+                        <img src="assets/images/cta-bg.png" alt="" class=" img-fluid">
                     </div>
                 </div>
             </div>

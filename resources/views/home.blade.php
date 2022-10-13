@@ -197,7 +197,7 @@
                     {{-- <img src="assets/images/baby-phone.png" alt="" class="img-fluid mb-4 smallphone-image"> --}}
                     <h1 class="display-6 fw-bold">Yayasan Darul Hufadz Jatinangor.</h1>
                     <p class="mt-4 text-muted" style="text-align: justify">
-                        Yayasan Darul Hufadz adalah sebuah yayasan pendidikan berbasis islam yang berletak di Kp. Bokong RT 03 RW 15, Ds. Cipacing, Kec. Jatinangor, Kab. Sumedang 45363.
+                        Yayasan Darul Hufadz adalah sebuah yayasan pendidikan berbasis islam yang berletak di Kp. Bojong RT 03 RW 15, Ds. Cipacing, Kec. Jatinangor, Kab. Sumedang 45363.
                     </p>
                     <a href="profil-yasda" class="btn bg-gradiant mt-4">Baca Selengkapnya</a>
                 </div>

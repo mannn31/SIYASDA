@@ -75,10 +75,10 @@
                     <div class="text-start mt-4 mt-lg-0">
                         <h5 class="text-white fw-bold">Tingkat</h5>
                         <ul class="footer-item list-unstyled footer-link mt-3">
-                            <li><a href="">Madrasah Aliyah</a></li>
-                            <li><a href="">Madrasah Tsanawiyah</a></li>
-                            <li><a href="">Madrasah Ibtidaiyah</a></li>
-                            <li><a href="">Pondok Pesantren</a></li>
+                            <li><a href="profil-ma">Madrasah Aliyah</a></li>
+                            <li><a href="profil-mts">Madrasah Tsanawiyah</a></li>
+                            <li><a href="profil-mi">Madrasah Ibtidaiyah</a></li>
+                            <li><a href="profil-ponpes">Pondok Pesantren</a></li>
                         </ul>
                     </div>
                 </div>

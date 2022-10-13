@@ -9,26 +9,26 @@
     <meta name="keywords" content="" />
     <meta content="Pichforest" name="author" />
 
-    <link rel="shortcut icon" href="dist/images/faviconnew.ico">
+    <link rel="shortcut icon" href="assets/images/faviconnew.ico">
 
     <!-- Bootstrap css -->
-    <link rel="stylesheet" href="dist/css/bootstrap.min.css" type="text/css" id="bootstrap-style" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" id="bootstrap-style" />
 
     <!-- Material Icon Css -->
-    <link rel="stylesheet" href="dist/css/materialdesignicons.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/materialdesignicons.min.css" type="text/css" />
 
     <!-- Unicon Css -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
 
     <!-- Swiper Css -->
-    <link rel="stylesheet" href="dist/css/tiny-slider.css" type="text/css" />
-    <link rel="stylesheet" href="dist/css/swiper.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/swiper.min.css" type="text/css" />
 
     <!-- Custom Css -->
-    <link rel="stylesheet" href="dist/css/style.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.min.css" type="text/css" />
 
     <!-- colors -->
-    <link href="dist/css/colors/default.css" rel="stylesheet" type="text/css" id="color-opt" />
+    <link href="assets/css/colors/default.css" rel="stylesheet" type="text/css" id="color-opt" />
 
 </head>
 
@@ -47,7 +47,7 @@
             <div class="row ">
                 <div class="col-lg-2">
                     <a class="navbar-brand logo text-uppercase" href="/">
-                        <img src="dist/images/logo-footer.png" class="logo-light" alt="" height="40">
+                        <img src="assets/images/logo-footer.png" class="logo-light" alt="" height="40">
                         <!-- <img src="images/logo-dark.png" class="logo-dark" alt="" height="28"> -->
                     </a>
                     <p class="text-white-50 mt-2 mb-0"><small>Jl. Raya Cipacing No.20, Kp.Bojong, Ds.Cipacing, Kec. Jatinangor, Kabupaten Sumedang, Jawa Barat 45363</small></p>
@@ -75,10 +75,10 @@
                     <div class="text-start mt-4 mt-lg-0">
                         <h5 class="text-white fw-bold">Tingkat</h5>
                         <ul class="footer-item list-unstyled footer-link mt-3">
-                            <li><a href="">Madrasah Aliyah</a></li>
-                            <li><a href="">Madrasah Tsanawiyah</a></li>
-                            <li><a href="">Madrasah Ibtidaiyah</a></li>
-                            <li><a href="">Pondok Pesantren</a></li>
+                            <li><a href="profil-ma">Madrasah Aliyah</a></li>
+                            <li><a href="profil-mts">Madrasah Tsanawiyah</a></li>
+                            <li><a href="profil-mi">Madrasah Ibtidaiyah</a></li>
+                            <li><a href="profil-ponpes">Pondok Pesantren</a></li>
                         </ul>
                     </div>
                 </div>
@@ -176,19 +176,19 @@
 
 
     <!--Bootstrap Js-->
-    <script src="dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 
     <!-- Slider Js -->
-    <script src="dist/js/tiny-slider.js"></script>
-    <script src="dist/js/swiper.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
 
     
 
     <!-- counter -->
-    <script src="dist/js/counter.init.js"></script>
+    <script src="assets/js/counter.init.js"></script>
 
     <!-- App Js -->
-    <script src="dist/js/app.js"></script>
+    <script src="assets/js/app.js"></script>
 
     <script>
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))

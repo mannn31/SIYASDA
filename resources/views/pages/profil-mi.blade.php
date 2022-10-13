@@ -1,6 +1,6 @@
+@extends('layouts.temp-pages')
 
-
-<?php $__env->startSection('content'); ?>
+@section('content')
 
     <!-- light-dark mode button -->
     <a href="javascript: void(0);" id="mode" class="mode-btn text-white rounded-end">
@@ -16,14 +16,14 @@
         <!-- start container -->
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-10">
-                    <h1 class="text-light">Profil Yayasan</h1>
+                <div class="col-lg-9">
+                    <h1 class="text-light">Profil Madrasah Ibtidaiyah</h1>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-3">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                           <li class="breadcrumb-item"><a href="/" class="text-light"><i class="mdi mdi-home"></i> Beranda</a></li>
-                          <li class="breadcrumb-item active text-light" aria-current="page"><?php echo e($title); ?></li>
+                          <li class="breadcrumb-item active text-light" aria-current="page">{{ $title }}</li>
                         </ol>
                     </nav>
                 </div>
@@ -45,11 +45,10 @@
                     <img src="assets/images/logo-yasda.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-7">
-                    
-                    <h1 class="display-6 fw-bold">Yayasan Darul Hufadz Jatinangor.</h1>
+                    {{-- <img src="assets/images/baby-phone.png" alt="" class="img-fluid mb-4 smallphone-image"> --}}
+                    <h1 class="display-6 fw-bold">Madrasah Ibtidaiyah Swasta Plus Darul Hufadz.</h1>
                     <p class="mt-4 text-muted" style="text-align: justify">
-                        <?php echo e($about); ?>
-
+                        {{ $about }}
                     </p>
                 </div>
             </div>
@@ -61,121 +60,110 @@
 
 
     <!-- start features -->
-    
-    <!-- end features -->
-
-    <!-- Tingkat section -->
-    <div class="section features" id="tingkat">
+    {{-- <div class="section features" id="features">
         <!-- start container -->
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="title text-center mb-5">
-                        <h6 class="mb-0 fw-bold text-primary">Yayasan Darul Hufadz Jatinangor</h6>
-                        <h2 class="f-40">Tingkat Pendidikan</h2>
-                        <p class="text-muted">Pilih tingkat pendidikan yang ada di Yayasan Darul Hufadz sesuai yang dibutuhkan.</p>
+                        <h6 class="mb-0 fw-bold text-primary">AppTech Features</h6>
+                        <h2 class="f-40">Features for our app </h2>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos
+                            inventore omnis aliquid rerum alias molestias.</p>
                     </div>
                 </div>
             </div>
 
             <div class="row justify-content-center">
+
+
                 <div class="col-lg-12">
                     <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="pills-maspdh-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-maspdh" type="button" role="tab" aria-controls="pills-maspdh"
-                                aria-selected="true">Madrasah Aliyah</button>
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Top Features</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-mtsspdh-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-mtsspdh" type="button" role="tab" aria-controls="pills-mtsspdh"
-                                aria-selected="false">Madrasah Tsanawiyah</button>
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">Smart Features</button>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-mispdh-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-mispdh" type="button" role="tab" aria-controls="pills-mispdh"
-                                aria-selected="false">Madrasah Ibtidaiyah</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-ponpes-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-ponpes" type="button" role="tab" aria-controls="pills-ponpes"
-                                aria-selected="false">Pondok Pesantren</button>
-                        </li>
+
                     </ul>
                     <div class="tab-content mt-5" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-maspdh" role="tabpanel"
-                            aria-labelledby="pills-maspdh-tab">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
                             <div class="row align-items-center">
-                                <div class="col-lg-6">
-                                    <img src="assets/images/features/phone2.png" alt="" class="img-fluid">
-                                </div>
-
-                                <div class="col-lg-6">
-                                    <h2 class="mb-4">Madrasah Aliyah</h2>
-
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="features-box mt-4">
-                                                <div class="d-flex">
-                                                    <div class="icon">
-                                                        <i class="mdi mdi-check-circle f-20 me-2"></i>
-                                                    </div>
-                                                    <div class="heading">
-                                                        <h6 class="mt-1">Fast Messaging</h6>
-                                                        <p class="text-muted">Soluta velit sint, esse quis tempora
-                                                            impedit corrupti in recusandae tenetur dignissimos
-                                                            voluptates..</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="features-box mt-4">
-                                                <div class="d-flex">
-                                                    <div class="icon">
-                                                        <i class="mdi mdi-check-circle f-20 me-2"></i>
-                                                    </div>
-                                                    <div class="heading">
-                                                        <h6 class="mt-1">User Freindly</h6>
-                                                        <p class="text-muted">Amet repudiandae illo quasi enim iusto
-                                                            corporis ratione? Laudantium reprehenderit sint provident.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                <div class="col-lg-4">
+                                    <div class="features-item text-start text-lg-end">
+                                        <div class="icon avatar-sm text-center ms-lg-auto rounded-circle">
+                                            <i class="mdi mdi-message-alert-outline f-24"></i>
                                         </div>
-                                        <div class="col-lg-6">
-                                            <div class="features-box mt-4">
-                                                <div class="d-flex">
-                                                    <div class="icon">
-                                                        <i class="mdi mdi-check-circle f-20 me-2"></i>
-                                                    </div>
-                                                    <div class="heading">
-                                                        <h6 class="mt-1">Minimal Interface</h6>
-                                                        <p class="text-muted">Repellat ad in autem, odio quos ex eum
-                                                            recusandae cupiditate assumenda nihil incidunt dolorem qui
-                                                            soluta.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="features-box mt-4">
-                                                <div class="d-flex">
-                                                    <div class="icon">
-                                                        <i class="mdi mdi-check-circle f-20 me-2"></i>
-                                                    </div>
-                                                    <div class="heading">
-                                                        <h6 class="mt-1">Notification</h6>
-                                                        <p class="text-muted">Ipsam nisi quam velit maxime corrupti ut
-                                                            quos, ad eum laudantium voluptatibus, facilis numquam
-                                                            repellendus.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="content mt-3">
+                                            <h5>Responsive Design</h5>
+                                            <p>Vivamus ac nulla ultrices laoreet neque mollis mi morbi elementum .</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="features-item text-start text-lg-end mt-5">
+                                        <div class="icon avatar-sm text-center ms-lg-auto rounded-circle">
+                                            <i class="mdi mdi-autorenew f-24"></i>
+                                        </div>
+                                        <div class="content mt-3">
+                                            <h5>Cool Features</h5>
+                                            <p>Vivamus ac nulla ultrices laoreet neque mollis mi morbi elementum .</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="features-item text-start text-lg-end mt-5">
+                                        <div class="icon avatar-sm text-center ms-lg-auto rounded-circle">
+                                            <i class="mdi mdi-eyedropper f-24"></i>
+                                        </div>
+                                        <div class="content mt-3">
+                                            <h5>Lifetime Support</h5>
+                                            <p>Vivamus ac nulla ultrices laoreet neque mollis mi morbi elementum .</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <img src="assets/images/features/phone.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="features-item">
+                                        <div class="icon avatar-sm text-center rounded-circle">
+                                            <i class="mdi mdi-lifebuoy f-24"></i>
+                                        </div>
+                                        <div class="content mt-3">
+                                            <h5>Stunning Design</h5>
+                                            <p>Vivamus ac nulla ultrices laoreet neque mollis mi morbi elementum .</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="features-item mt-5">
+                                        <div class="icon avatar-sm text-center rounded-circle">
+                                            <i class="mdi mdi-dropbox f-24"></i>
+                                        </div>
+                                        <div class="content mt-3">
+                                            <h5>Best PSD Pack</h5>
+                                            <p>Vivamus ac nulla ultrices laoreet neque mollis mi morbi elementum .</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="features-item mt-5">
+                                        <div class="icon avatar-sm text-center rounded-circle">
+                                            <i class="mdi mdi-flask f-24"></i>
+                                        </div>
+                                        <div class="content mt-3">
+                                            <h5>Creative Idea</h5>
+                                            <p>Vivamus ac nulla ultrices laoreet neque mollis mi morbi elementum .</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-mtsspdh" role="tabpanel"
-                            aria-labelledby="pills-mtsspdh-tab">
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab">
 
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
@@ -183,151 +171,7 @@
                                 </div>
 
                                 <div class="col-lg-6">
-                                    <h2 class="mb-4">Madrasah Tsanawiyah</h2>
-
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="features-box mt-4">
-                                                <div class="d-flex">
-                                                    <div class="icon">
-                                                        <i class="mdi mdi-check-circle f-20 me-2"></i>
-                                                    </div>
-                                                    <div class="heading">
-                                                        <h6 class="mt-1">Fast Messaging</h6>
-                                                        <p class="text-muted">Soluta velit sint, esse quis tempora
-                                                            impedit corrupti in recusandae tenetur dignissimos
-                                                            voluptates..</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="features-box mt-4">
-                                                <div class="d-flex">
-                                                    <div class="icon">
-                                                        <i class="mdi mdi-check-circle f-20 me-2"></i>
-                                                    </div>
-                                                    <div class="heading">
-                                                        <h6 class="mt-1">User Freindly</h6>
-                                                        <p class="text-muted">Amet repudiandae illo quasi enim iusto
-                                                            corporis ratione? Laudantium reprehenderit sint provident.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="features-box mt-4">
-                                                <div class="d-flex">
-                                                    <div class="icon">
-                                                        <i class="mdi mdi-check-circle f-20 me-2"></i>
-                                                    </div>
-                                                    <div class="heading">
-                                                        <h6 class="mt-1">Minimal Interface</h6>
-                                                        <p class="text-muted">Repellat ad in autem, odio quos ex eum
-                                                            recusandae cupiditate assumenda nihil incidunt dolorem qui
-                                                            soluta.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="features-box mt-4">
-                                                <div class="d-flex">
-                                                    <div class="icon">
-                                                        <i class="mdi mdi-check-circle f-20 me-2"></i>
-                                                    </div>
-                                                    <div class="heading">
-                                                        <h6 class="mt-1">Notification</h6>
-                                                        <p class="text-muted">Ipsam nisi quam velit maxime corrupti ut
-                                                            quos, ad eum laudantium voluptatibus, facilis numquam
-                                                            repellendus.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="pills-mispdh" role="tabpanel"
-                            aria-labelledby="pills-mispdh-tab">
-
-                            <div class="row align-items-center">
-                                <div class="col-lg-6">
-                                    <img src="assets/images/features/phone2.png" alt="" class="img-fluid">
-                                </div>
-
-                                <div class="col-lg-6">
-                                    <h2 class="mb-4">Madrasah Ibtidaiyah</h2>
-
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="features-box mt-4">
-                                                <div class="d-flex">
-                                                    <div class="icon">
-                                                        <i class="mdi mdi-check-circle f-20 me-2"></i>
-                                                    </div>
-                                                    <div class="heading">
-                                                        <h6 class="mt-1">Fast Messaging</h6>
-                                                        <p class="text-muted">Soluta velit sint, esse quis tempora
-                                                            impedit corrupti in recusandae tenetur dignissimos
-                                                            voluptates..</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="features-box mt-4">
-                                                <div class="d-flex">
-                                                    <div class="icon">
-                                                        <i class="mdi mdi-check-circle f-20 me-2"></i>
-                                                    </div>
-                                                    <div class="heading">
-                                                        <h6 class="mt-1">User Freindly</h6>
-                                                        <p class="text-muted">Amet repudiandae illo quasi enim iusto
-                                                            corporis ratione? Laudantium reprehenderit sint provident.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="features-box mt-4">
-                                                <div class="d-flex">
-                                                    <div class="icon">
-                                                        <i class="mdi mdi-check-circle f-20 me-2"></i>
-                                                    </div>
-                                                    <div class="heading">
-                                                        <h6 class="mt-1">Minimal Interface</h6>
-                                                        <p class="text-muted">Repellat ad in autem, odio quos ex eum
-                                                            recusandae cupiditate assumenda nihil incidunt dolorem qui
-                                                            soluta.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="features-box mt-4">
-                                                <div class="d-flex">
-                                                    <div class="icon">
-                                                        <i class="mdi mdi-check-circle f-20 me-2"></i>
-                                                    </div>
-                                                    <div class="heading">
-                                                        <h6 class="mt-1">Notification</h6>
-                                                        <p class="text-muted">Ipsam nisi quam velit maxime corrupti ut
-                                                            quos, ad eum laudantium voluptatibus, facilis numquam
-                                                            repellendus.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="pills-ponpes" role="tabpanel"
-                            aria-labelledby="pills-ponpes-tab">
-
-                            <div class="row align-items-center">
-                                <div class="col-lg-6">
-                                    <img src="assets/images/features/phone2.png" alt="" class="img-fluid">
-                                </div>
-
-                                <div class="col-lg-6">
-                                    <h2 class="mb-4">Pondok Pesantren</h2>
+                                    <h2 class="mb-4">Smart Features</h2>
 
                                     <div class="row">
                                         <div class="col-lg-6">
@@ -396,29 +240,110 @@
             </div>
         </div>
         <!-- end container -->
-    </div>
-    <!-- end Tingkat section -->
+    </div> --}}
+    <!-- end features -->
 
-
-
-    <!-- start testimonial -->
-    
-    <!-- end testimonial -->
-
-    <!-- pricing section -->
-    
-    <!-- end pricing -->
-
-    <!-- Informasi section -->
-    <section class="section bg-light testimonial" id="informasi">
+    <!-- Visi Misi section -->
+    <div class="section features" id="visi-misi">
         <!-- start container -->
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
+                    <div class="title text-center mb-3">
+                        <h6 class="mb-0 fw-bold text-primary">Madrasah Ibtidaiyah Swasta Plus Hufadz Jatinangor</h6>
+                        <h2 class="f-40">Visi dan Misi</h2>
+                        <p class="text-muted">Berikut adalah visi dan misi Madrasah Ibtidaiyah Swasta Plus Darul Hufadz.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-visi-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-visi" type="button" role="tab" aria-controls="pills-visi"
+                                aria-selected="true">VISI</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-misi-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-misi" type="button" role="tab" aria-controls="pills-misi"
+                                aria-selected="false">MISI</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content mt-5" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-visi" role="tabpanel"
+                            aria-labelledby="pills-visi-tab">
+                            <div class="row align-items-center">
+                                <div class="col-lg-12">
+                                    <h2 class="mb-4 text-center">"Mencetak Generasi Qur'ani"</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-misi" role="tabpanel"
+                            aria-labelledby="pills-misi-tab">
+
+                            <div class="row align-items-center">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="features-box mt-4">
+                                                <div class="d-flex justify-content-center">
+                                                    <div class="icon">
+                                                        <i class="mdi mdi-check-circle f-20 me-2"></i>
+                                                    </div>
+                                                    <div class="heading">
+                                                        <h6 class="mt-1">Memurnikan Tauhid</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="features-box mt-4">
+                                                <div class="d-flex justify-content-center">
+                                                    <div class="icon">
+                                                        <i class="mdi mdi-check-circle f-20 me-2"></i>
+                                                    </div>
+                                                    <div class="heading">
+                                                        <h6 class="mt-1">Mencerdaskan Akal</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="features-box mt-4">
+                                                <div class="d-flex justify-content-center">
+                                                    <div class="icon">
+                                                        <i class="mdi mdi-check-circle f-20 me-2"></i>
+                                                    </div>
+                                                    <div class="heading">
+                                                        <h6 class="mt-1">Memuliakan Akhlaq</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end Visi Misi section -->
+
+    <!-- Struktur section -->
+    <section class="section bg-light testimonial" id="struktur">
+        <!-- start container -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
                     <div class="title text-center mb-5">
-                        <h6 class="mb-0 fw-bold text-primary">Yayasan Darul Hufadz Jatinangor</h6>
-                        <h2 class="f-40">Daftar Informasi</h2>
-                        <p class="text-muted">Menyajikan informasi seputar Yayasan Darul Hufadz Jatinangor.</p>
+                        <h6 class="mb-0 fw-bold text-primary">Madrasah Ibtidaiyah Swasta Plus Darul Hufadz Jatinangor</h6>
+                        <h2 class="f-40">Struktur Organigram</h2>
+                        <p class="text-muted">Berikut adalah struktur organigram Madrasah Ibtidaiyah Swasta Plus Darul Hufadz.</p>
 
                     </div>
                 </div>
@@ -465,7 +390,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+                                {{-- <div class="back-image position-absolute end-0 bottom-0">
+                                    <img src="assets/images/testi/rating-image.png" alt="" class="img-fluid">
+                                </div> --}}
                             </div>
                         </div>
                         <!-- slider item -->
@@ -508,7 +435,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+                                {{-- <div class="back-image position-absolute end-0 bottom-0">
+                                    <img src="assets/images/testi/rating-image.png" alt="" class="img-fluid">
+                                </div> --}}
 
                             </div>
                         </div>
@@ -518,170 +447,327 @@
         </div>
         <!-- end container -->
     </section>
-    <!-- end Informasi section -->
+    <!-- end Struktur section -->
 
-    <!-- Agenda section -->
-    <section class="section pricing" id="agenda">
+    <!-- Pengajar section -->
+    <section class="section bg-light team" id="pengajar">
+        <!-- start container -->
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <div class="title text-center mb-5">
-                        <h6 class="mb-0 fw-bold text-primary">Yayasan Darul Hufadz Jatinangor</h6>
-                        <h2 class="f-40">Daftar Agenda Kegiatan</h2>
-                        <p class="text-muted">Menyajikan agenda kegiatan yang ada di Yayasan Darul Hufadz Jatinangor.</p>
-
+                        <h6 class="mb-0 fw-bold text-primary">Madrasah Ibtidaiyah Swasta Plus Darul Hufadz Jatinangor</h6>
+                        <h2 class="f-40">Daftar Pendidik dan Tenaga Kependidikan</h2>
+                        <p class="text-muted">Berikut adalah daftar pendidik dan tenaga kependidikan Madrasah Ibtidaiyah Swasta Plus Darul Hufadz.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="row align-items-center">
-                <div class="col-lg-4">
-                    <div class="price-item shadow-sm overflow-hidden">
-                        <div class="price-up-box active p-4">
-                            <div class="badge bg-primary fw-normal f-14">Basic</div>
-                            <div class="price-tag mt-2">
-                                <h2 class="text-white mb-0 f-40"><sup class="f-22 fw-normal">$</sup>09<sup
-                                        class="f-16 fw-normal"> /month</sup></h2>
+            <div class="row justify-content-center mt-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-box text-end">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-9 col-10">
+                                <div class="team-image">
+                                    <img src="assets/images/team/img1.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="team-icon ">
+                                    <div class="d-flex mt-2">
+                                        <div class="social-icon facebook mx-2">
+                                            <a href=""> <i class="mdi mdi-facebook f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon instagram mx-2">
+                                            <a href=""><i class="mdi mdi-instagram f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon twitter mx-2">
+                                            <a href=""><i class="mdi mdi-twitter f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon linkedin mx-2">
+                                            <a href=""><i class="mdi mdi-linkedin f-20"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <p class="text-white-50 mb-1">17 to 19 user</p>
-                            <p class="text-white-50 mb-0">For most businesses that want to optimize web query.</p>
                         </div>
-                        <div class="border border-3"></div>
-
-                        <div class="price-down-box p-4">
-                            <ul class="list-unstyled ">
-                                <li><i class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>2 App and
-                                    project</li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>400 Gb/s
-                                    storange</li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>Free
-                                    coustom domain
-                                </li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>Chat
-                                    Support
-                                </li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>No
-                                    transaction fees
-                                </li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>Unlimited
-                                    Storage
-                                </li>
-
-                            </ul>
-                            <a href="" class="btn btn-sm text-primary mt-3"><i class="mdi mdi-check-all me-2"></i>your
-                                plane</a>
+                        <div class="team-info position-absolute">
+                            <h6>Cody Fisher <span class="f-14 text-muted fw-normal">/ owner</span></h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 ">
-                    <div class="price-item shadow-sm overflow-hidden mt-4 mt-lg-0">
-                        <div class="topbar-header bg-primary py-2 text-center">
-                            <h6 class="mb-0 text-white fw-normal">Recommended For You</h6>
-                        </div>
-                        <div class="price-up-box p-4">
-                            <div class="badge bg-primary fw-normal f-14">Startup</div>
-                            <div class="price-tag mt-2">
-                                <h2 class="text-dark mb-0 f-40"><sup class="f-22 fw-normal">$</sup>19
-                                    <sup class="f-16 fw-normal"> /month</sup>
-                                </h2>
-                            </div>
-                            <p class="text-muted mb-1">20 to 40 user</p>
-                            <p class="text-muted mb-0">For most businesses that want to optimize web query.</p>
-                        </div>
-                        <div class="border border-3"></div>
 
-                        <div class="price-down-box p-4">
-                            <ul class="list-unstyled ">
-                                <li><i class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>15 App and
-                                    project</li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>800 Gb/s
-                                    storange</li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>Free
-                                    coustom domain
-                                </li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>Chat
-                                    Support
-                                </li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>No
-                                    transaction fees
-                                </li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>Unlimited
-                                    Storage
-                                </li>
-                            </ul>
-                            <a href="" class="btn btn-sm btn-primary mt-3"><i class="mdi mdi-check-all me-2"></i>Buy
-                                Now</a>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-box">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-9 col-10">
+                                <div class="team-image text-end">
+                                    <img src="assets/images/team/img4.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="team-icon">
+                                    <div class="d-flex mt-2">
+                                        <div class="social-icon facebook mx-2">
+                                            <a href=""> <i class="mdi mdi-facebook f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon instagram mx-2">
+                                            <a href=""><i class="mdi mdi-instagram f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon twitter mx-2">
+                                            <a href=""><i class="mdi mdi-twitter f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon linkedin mx-2">
+                                            <a href=""><i class="mdi mdi-linkedin f-20"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-info position-absolute">
+                            <h6>Emily Coper <span class="f-14 text-muted fw-normal">/ Desiger</span></h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="price-item shadow-sm overflow-hidden mt-4 mt-lg-0">
-                        <div class="price-up-box p-4">
-                            <div class="badge bg-primary fw-normal f-14">Enterprise</div>
-                            <div class="price-tag mt-2">
-                                <h2 class="text-dark mb-0 f-40"><sup class="f-22 fw-normal">$</sup>29<sup
-                                        class="f-16 fw-normal"> /month</sup></h2>
-                            </div>
-                            <p class="text-muted mb-1">17 to 19 user</p>
-                            <p class="text-muted mb-0">For most businesses that want to optimize web query.</p>
-                        </div>
-                        <div class="border border-3"></div>
 
-                        <div class="price-down-box p-4">
-                            <ul class="list-unstyled ">
-                                <li><i class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>Unlimited
-                                    App and
-                                    project</li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>1000 Gb/s
-                                    storange</li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>Free
-                                    coustom domain
-                                </li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>Chat
-                                    Support
-                                </li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>No
-                                    transaction fees
-                                </li>
-                                <li class="mt-2"><i
-                                        class="mdi mdi-check-circle f-20 align-middle me-2 text-primary"></i>Unlimited
-                                    Storage
-                                </li>
-                            </ul>
-                            <a href="" class="btn btn-sm btn-primary mt-3"><i class="mdi mdi-check-all me-2"></i>Buy
-                                Now</a>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-box">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-9 col-10">
+                                <div class="team-image text-end">
+                                    <img src="assets/images/team/img3.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="team-icon">
+                                    <div class="d-flex mt-2">
+                                        <div class="social-icon facebook mx-2">
+                                            <a href=""> <i class="mdi mdi-facebook f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon instagram mx-2">
+                                            <a href=""><i class="mdi mdi-instagram f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon twitter mx-2">
+                                            <a href=""><i class="mdi mdi-twitter f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon linkedin mx-2">
+                                            <a href=""><i class="mdi mdi-linkedin f-20"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-info position-absolute">
+                            <h6>Nick Obron <span class="f-14 text-muted fw-normal">/ Devloper</span></h6>
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-12 text-center mt-2">
-                    <a href="" class="btn btn-sm btn-primary mt-3">Lihat Semua Agenda</a>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-box">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-9 col-10">
+                                <div class="team-image text-end">
+                                    <img src="assets/images/team/img2.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="team-icon">
+                                    <div class="d-flex mt-2">
+                                        <div class="social-icon facebook mx-2">
+                                            <a href=""> <i class="mdi mdi-facebook f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon instagram mx-2">
+                                            <a href=""><i class="mdi mdi-instagram f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon twitter mx-2">
+                                            <a href=""><i class="mdi mdi-twitter f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon linkedin mx-2">
+                                            <a href=""><i class="mdi mdi-linkedin f-20"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-info position-absolute">
+                            <h6>Simmy roy <span class="f-14 text-muted fw-normal">/ Manager</span></h6>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-box text-end">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-9 col-10">
+                                <div class="team-image">
+                                    <img src="assets/images/team/img1.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="team-icon ">
+                                    <div class="d-flex mt-2">
+                                        <div class="social-icon facebook mx-2">
+                                            <a href=""> <i class="mdi mdi-facebook f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon instagram mx-2">
+                                            <a href=""><i class="mdi mdi-instagram f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon twitter mx-2">
+                                            <a href=""><i class="mdi mdi-twitter f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon linkedin mx-2">
+                                            <a href=""><i class="mdi mdi-linkedin f-20"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-info position-absolute">
+                            <h6>Cody Fisher <span class="f-14 text-muted fw-normal">/ owner</span></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-box">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-9 col-10">
+                                <div class="team-image text-end">
+                                    <img src="assets/images/team/img4.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="team-icon">
+                                    <div class="d-flex mt-2">
+                                        <div class="social-icon facebook mx-2">
+                                            <a href=""> <i class="mdi mdi-facebook f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon instagram mx-2">
+                                            <a href=""><i class="mdi mdi-instagram f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon twitter mx-2">
+                                            <a href=""><i class="mdi mdi-twitter f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon linkedin mx-2">
+                                            <a href=""><i class="mdi mdi-linkedin f-20"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-info position-absolute">
+                            <h6>Emily Coper <span class="f-14 text-muted fw-normal">/ Desiger</span></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-box">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-9 col-10">
+                                <div class="team-image text-end">
+                                    <img src="assets/images/team/img3.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="team-icon">
+                                    <div class="d-flex mt-2">
+                                        <div class="social-icon facebook mx-2">
+                                            <a href=""> <i class="mdi mdi-facebook f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon instagram mx-2">
+                                            <a href=""><i class="mdi mdi-instagram f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon twitter mx-2">
+                                            <a href=""><i class="mdi mdi-twitter f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon linkedin mx-2">
+                                            <a href=""><i class="mdi mdi-linkedin f-20"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-info position-absolute">
+                            <h6>Nick Obron <span class="f-14 text-muted fw-normal">/ Devloper</span></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-box">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-9 col-10">
+                                <div class="team-image text-end">
+                                    <img src="assets/images/team/img2.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="team-icon">
+                                    <div class="d-flex mt-2">
+                                        <div class="social-icon facebook mx-2">
+                                            <a href=""> <i class="mdi mdi-facebook f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon instagram mx-2">
+                                            <a href=""><i class="mdi mdi-instagram f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon twitter mx-2">
+                                            <a href=""><i class="mdi mdi-twitter f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon linkedin mx-2">
+                                            <a href=""><i class="mdi mdi-linkedin f-20"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-info position-absolute">
+                            <h6>Simmy roy <span class="f-14 text-muted fw-normal">/ Manager</span></h6>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
+        <!-- end container -->
     </section>
-    <!-- end Agenda section -->
-
-
+    <!-- end Pengajar section -->
 
     <!-- slider section -->
-    
+    {{-- <section class="section app-slider bg-light" id="app">
+        <!-- start container -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="title text-center mb-5">
+                        <h6 class="mb-0 fw-bold text-primary">App Screen!</h6>
+                        <h2 class="f-40">Show our App Screenshots!</h2>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos <br>
+                            inventore omnis aliquid rerum alias molestias.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="swiper-container">
+                        <div class="fream-phone ">
+                            <img src="assets/images/testi/phone-fream.png" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide border-radius">
+                                <img src="assets/images/testi/ss/s-1.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="swiper-slide border-radius">
+                                <img src="assets/images/testi/ss/s-2.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="swiper-slide border-radius">
+                                <img src="assets/images/testi/ss/s-3.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="swiper-slide border-radius">
+                                <img src="assets/images/testi/ss/s-4.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="swiper-slide border-radius">
+                                <img src="assets/images/testi/ss/s-5.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="swiper-slide border-radius">
+                                <img src="assets/images/testi/ss/s-6.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+
+                        <!-- navigation buttons -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- end container -->
+        </div>
+    </section> --}}
     <!-- end section -->
 
 
@@ -740,7 +826,149 @@
 
 
     <!-- team section -->
-    
+    {{-- <section class="section team" id="team">
+        <!-- start container -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="title text-center mb-5">
+                        <h6 class="mb-0 fw-bold text-primary">Oue Team!</h6>
+                        <h2 class="f-40">We are team!</h2>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos <br>
+                            inventore omnis aliquid rerum alias molestias.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-box text-end">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-9 col-10">
+                                <div class="team-image">
+                                    <img src="assets/images/team/img1.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="team-icon ">
+                                    <div class="d-flex mt-2">
+                                        <div class="social-icon facebook mx-2">
+                                            <a href=""> <i class="mdi mdi-facebook f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon instagram mx-2">
+                                            <a href=""><i class="mdi mdi-instagram f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon twitter mx-2">
+                                            <a href=""><i class="mdi mdi-twitter f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon linkedin mx-2">
+                                            <a href=""><i class="mdi mdi-linkedin f-20"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-info position-absolute">
+                            <h6>Cody Fisher <span class="f-14 text-muted fw-normal">/ owner</span></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-box">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-9 col-10">
+                                <div class="team-image text-end">
+                                    <img src="assets/images/team/img4.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="team-icon">
+                                    <div class="d-flex mt-2">
+                                        <div class="social-icon facebook mx-2">
+                                            <a href=""> <i class="mdi mdi-facebook f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon instagram mx-2">
+                                            <a href=""><i class="mdi mdi-instagram f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon twitter mx-2">
+                                            <a href=""><i class="mdi mdi-twitter f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon linkedin mx-2">
+                                            <a href=""><i class="mdi mdi-linkedin f-20"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-info position-absolute">
+                            <h6>Emily Coper <span class="f-14 text-muted fw-normal">/ Desiger</span></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-box">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-9 col-10">
+                                <div class="team-image text-end">
+                                    <img src="assets/images/team/img3.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="team-icon">
+                                    <div class="d-flex mt-2">
+                                        <div class="social-icon facebook mx-2">
+                                            <a href=""> <i class="mdi mdi-facebook f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon instagram mx-2">
+                                            <a href=""><i class="mdi mdi-instagram f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon twitter mx-2">
+                                            <a href=""><i class="mdi mdi-twitter f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon linkedin mx-2">
+                                            <a href=""><i class="mdi mdi-linkedin f-20"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-info position-absolute">
+                            <h6>Nick Obron <span class="f-14 text-muted fw-normal">/ Devloper</span></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-box">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-9 col-10">
+                                <div class="team-image text-end">
+                                    <img src="assets/images/team/img2.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="team-icon">
+                                    <div class="d-flex mt-2">
+                                        <div class="social-icon facebook mx-2">
+                                            <a href=""> <i class="mdi mdi-facebook f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon instagram mx-2">
+                                            <a href=""><i class="mdi mdi-instagram f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon twitter mx-2">
+                                            <a href=""><i class="mdi mdi-twitter f-20"></i></a>
+                                        </div>
+                                        <div class="social-icon linkedin mx-2">
+                                            <a href=""><i class="mdi mdi-linkedin f-20"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-info position-absolute">
+                            <h6>Simmy roy <span class="f-14 text-muted fw-normal">/ Manager</span></h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- end container -->
+    </section> --}}
     <!-- end section -->
 
 
@@ -1028,5 +1256,4 @@
     </section>
     <!-- end section -->
     
-<?php $__env->stopSection(); ?>
-<?php echo $__env->make('layouts.temp-pages', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\laragon\www\SIYASDA\resources\views/pages/profil-yasda.blade.php ENDPATH**/ ?>
+@endsection
